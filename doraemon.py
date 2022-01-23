@@ -1,3 +1,4 @@
+from textwrap import fill
 from turtle import *
 def ankle(x,y):
     penup()
@@ -79,6 +80,54 @@ def nose():
     circle(20)
     end_fill()
     
+def black_eyes():
+    seth(0)
+    ankle(-20,195)
+    fillcolor('#000000')
+    begin_fill()
+    circle(13)
+    end_fill()
+    
+    pensize(6)
+    ankle(20,205)
+    seth(75)
+    circle(-10,150)
+    pensize(3)
+    
+    ankle(-17,200)
+    seth(0)
+    fillcolor('#ffffff')
+    begin_fill()
+    circle(5)
+    end_fill()
+    ankle(0,0)
+    
+def face():
+    fd(183)
+    lt(45)
+    fillcolor('#ffffff')
+    begin_fill()
+    circle(120,100)
+    seth(180)
+    #print(pos())
+    fd(121)
+    pendown()
+    seth(215)
+    circle(120,100)
+    end_fill()
+    ankle(63.56,218.24)
+    seth(90)
+    eyes()
+    seth(180)
+    penup()
+    fd(60)
+    pendown()
+    seth(90)
+    eyes()
+    penup()
+    seth(180)
+    fd(64)
+
 
     
     
