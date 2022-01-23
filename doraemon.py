@@ -215,7 +215,7 @@ def Doraemon():
     fillcolor('#ffffff')
     begin_fill()
     fd(15)
-    circle(-15.180)
+    circle(-15,180)
     fd(90)
     circle(-15,180)
     fd(10)
