@@ -1,5 +1,3 @@
-from re import S
-from textwrap import fill
 from turtle import *
 def ankle(x,y):
     penup()
