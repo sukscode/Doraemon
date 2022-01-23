@@ -1,3 +1,4 @@
+from re import S
 from textwrap import fill
 from turtle import *
 def ankle(x,y):
@@ -128,7 +129,162 @@ def face():
     seth(180)
     fd(64)
 
-
+def taauko():
+    penup()
+    circle(150,40)
+    pendown()
+    fillcolor('#00a0de')
+    begin_fill()
+    circle(150,280)
+    end_fill()
+    
+def Doraemon():
+    taauko()
+    
+    scarf()
+    
+    face()
+    
+    nose()
+    
+    mukh()
+    
+    daari()
+    
+    ankle(0,0)
+    
+    seth(0)
+    penup()
+    circle(150,50)
+    pendown()
+    seth(30)
+    fd(40)
+    seth(70)
+    circle(-30,270)
+    
+    fillcolor('#00a0de')
+    begin_fill()
+    
+    seth(230)
+    fd(80)
+    seth(90)
+    circle(1000,1)
+    seth(-89)
+    circle(-1000,10)
+    
+    #print(pos())
+    
+    seth(180)
+    fd(70)
+    seth(90)
+    circle(30,180)
+    seth(180)
+    fd(70)
+    
+    #print(pos())
+    seth(100)
+    circle(-1000,9)
+    
+    seth(-86)
+    circle(1000,2)
+    seth(230)
+    fd(40)
+    
+    #print(pos())
+    circle(-30,230)
+    seth(45)
+    fd(81)
+    seth(0)
+    fd(203)
+    circle(5,90)
+    fd(10)
+    circle(5,90)
+    fd(7)
+    seth(40)
+    circle(150,10)
+    seth(30)
+    fd(40)
+    end_fill()
+    
+    seth(70)
+    fillcolor('#ffffff')
+    begin_fill()
+    circle(-30)
+    end_fill()
+    
+    ankle(103.74,-182.59)
+    seth(0)
+    fillcolor('#ffffff')
+    begin_fill()
+    fd(15)
+    circle(-15.180)
+    fd(90)
+    circle(-15,180)
+    fd(10)
+    end_fill()
+    
+    ankle(-96.26,-182.59)
+    seth(180)
+    fillcolor('#ffffff')
+    begin_fill()
+    fd(15)
+    circle(15,180)
+    fd(90)
+    circle(15,180)
+    fd(10)
+    end_fill()
+    
+    ankle(-133.97,-91.81)
+    seth(50)
+    fillcolor('#ffffff')
+    begin_fill()
+    circle(30)
+    end_fill()
+    
+    ankle(-103.42,15.09)
+    seth(0)
+    fd(38)
+    seth(230)
+    begin_fill()
+    circle(90,260)
+    end_fill()
+    
+    ankle(5,-40)
+    seth(0)
+    fd(70)
+    seth(-90)
+    circle(-70,180)
+    seth(0)
+    fd(70)
+    
+    ankle(-103.42,15.09)
+    fd(90)
+    seth(70)
+    fillcolor('#ffd200')
+    #print(pos())
+    begin_fill()
+    circle(-20)
+    end_fill()
+    seth(170)
+    fillcolor('#ffd200')
+    begin_fill()
+    circle(-2,180)
+    seth(10)
+    circle(-100,22)
+    circle(-2,180)
+    seth(180 - 10)
+    circle(100,22)
+    end_fill()
+    goto(-13.42,15.09)
+    seth(250)
+    circle(20,110)
+    seth(90)
+    fd(15)
+    dot(10)
+    ankle(0,-150)
+    
+    black_eyes()
+    
     
     
         
